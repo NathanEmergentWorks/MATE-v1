@@ -1,0 +1,11 @@
+name: gridworld_c0
+grid_size: 12
+view_size: 5
+max_steps: 200
+walls_layout: "fixed_maze_1"
+has_markers: false
+marker_persistence: none
+reward:
+  goal: 1.0
+  step: -0.01
+  invalid: -0.01

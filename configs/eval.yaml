@@ -1,0 +1,8 @@
+num_eval_episodes: 100
+interventions:
+  - name: normal
+    type: none
+  - name: deletion
+    type: marker_deletion
+  - name: shuffle
+    type: marker_shuffle

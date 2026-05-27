@@ -1,0 +1,22 @@
+algo: ppo
+network:
+  type: cnn
+  conv_layers:
+    - {filters: 32, kernel_size: 3, stride: 1}
+    - {filters: 64, kernel_size: 3, stride: 1}
+  fc_units: 128
+ppo:
+  lr: 3e-4
+  gamma: 0.99
+  gae_lambda: 0.95
+  clip_range: 0.2
+  entropy_coef: 0.01
+  value_coef: 0.5
+  batch_size: 64
+  rollout_steps: 2048
+  ppo_epochs: 10
+training:
+  total_env_steps: 300000
+  eval_interval_steps: 100000
+  num_eval_episodes: 20
+seeds: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
