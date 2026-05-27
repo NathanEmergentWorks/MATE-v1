@@ -10,7 +10,7 @@ C1 — Persistent markers: The agent has one additional action, MARK, which plac
 This environment is the minimal RL instantiation of the Meaning Density Threshold Experiment (MDTE) within the broader Meaning Substrate Theory (MST) research program.
 
 Features
-Lightweight 10×10 gridworld with 5×5 egocentric observations
+Lightweight 12×12 gridworld with 5×5 egocentric observations
 
 PyTorch PPO agent (configurable)
 
