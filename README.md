@@ -1,4 +1,8 @@
 MATE‑v1: Marker‑Affordance Test Environment
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20404687.svg)](https://doi.org/10.5281/zenodo.20404687)
+
+
+
 MATE (Marker‑Affordance Test Environment) is a minimal reinforcement‑learning benchmark designed to test whether adding a single affordance‑enabling substrate feature — persistent agent‑placed markers — produces measurable increases in meaning density, emergent affordances, and new behaviour classes.
 
 MATE compares two otherwise‑identical gridworld conditions:
@@ -90,13 +94,27 @@ MATE-v1/
 ├── tests/                # Unit tests
 ├── README.md
 └── LICENSE
+
+-----
+
 Citation
+
 If you use MATE‑v1 in academic work, please cite:
 
-Code
-Frick, N. (2026). MATE‑v1: Marker‑Affordance Test Environment.
-Version 1.0. https://github.com/NathanEmergentWorks/MATE-v1
-(Once you mint a Zenodo DOI, we’ll replace this with the DOI badge.)
+Frick, N. (2026). *MATE‑v1: Marker‑Affordance Test Environment* (v1.1_public). Zenodo. https://doi.org/10.5281/zenodo.20404687
+
+### BibTeX
+
+@software{frick_2026_matev1,
+  author       = {Frick, Nathan},
+  title        = {MATE‑v1: Marker‑Affordance Test Environment},
+  month        = may,
+  year         = 2026,
+  publisher    = {Zenodo},
+  version      = {v1.1_public},
+  doi          = {10.5281/zenodo.20404687},
+  url          = {https://doi.org/10.5281/zenodo.20404687}
+}
 
 License
 This project is released under the MIT License.
